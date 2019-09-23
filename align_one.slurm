@@ -15,6 +15,4 @@
 # load in the standard modules
 module restore ngs1 
 
-# a seperate question is how can set the alias permanently in my bash
-
 hisat2 -p 16 -x /scratch/zhux12/mouse_index_st/genome_tran   -1  /scratch/zhux12/Peter_RNAseq/2563-MAG-2_1_sequence.txt.gz  -2 /scratch/zhux12/Peter_RNAseq/2563-MAG-2_2_sequence.txt.gz  -S /scratch/zhux12/Peter_RNAseq/2563-MAG-2.sam
